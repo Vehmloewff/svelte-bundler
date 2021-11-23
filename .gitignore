@@ -1,2 +1,4 @@
 bundle.js
 bundle.css
+node_modules
+yarn.lock
