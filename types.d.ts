@@ -26,7 +26,7 @@ export interface BundleOptions {
 	onSvelteCompile?(url: string): unknown
 	/** Where files are looked up when not found in 'map'
 	 * Return null if the file does not exist */
-	provideFile?(url: string): string | null
+	provideFile?(url: string): Promise<string | null>
 }
 
 export interface BundleResult {
