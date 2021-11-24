@@ -109,7 +109,7 @@ export async function bundle(options) {
 
 		await onSvelteCompile(id)
 
-		const { js, css, warnings } = compileSvelte(code, { filename: id, dev })
+		const { js, css, warnings } = compileSvelte(code, { filename: id, dev, css: false })
 
 		cssSections.push(css.code)
 		diagnostics.push(...warnings)
