@@ -2,7 +2,7 @@
 
 A bundler for Svelte Applications.
 
-For documentation, see [`deno.ts`](./deno.ts).
+For documentation, see [`types.d.ts`](./deno.ts).
 
 ## Why on earth do we need this?
 
