@@ -1,3 +1,5 @@
+> Unfortunately, I no longer have the resources to maintain this project.
+
 # Svelte Bundler
 
 A bundler for Svelte Applications.
